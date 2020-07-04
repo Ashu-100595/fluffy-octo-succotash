@@ -1,0 +1,116 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Homepage.css">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <script src="https://kit.fontawesome.com/cd0532dd27.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <title>ShopLane</title>
+</head>
+
+<body>
+    <header>
+        <nav id="topbar">
+            <div id="left-menu">
+                <div id="shop-logo">
+                    <a href="./Homepage.html">
+                        <div id="logo-text">
+                            <p>SHOP<br>ショップ </p>
+                            <p>LANE<br> レーン</p>
+                        </div>
+                    </a>
+                </div>
+                <div id="cont" class="container">
+                    <a href="#clothing-section">Clothing</a>
+                    <a href="#accessory-section">Accessories</a>
+                </div>
+            </div>
+            <input type="text" name="search" placeholder="Search..">
+
+            <div id="right-menu">
+                <div id="cart-wrapper">
+                    <p id="cart-count">0</p>
+                    <a href="./Checkout.html">
+                        <i class="fas fa-shopping-cart fa-2x"></i>
+                    </a>
+                </div>
+                <img id="prof-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTF9fi4C7JW68EE6GbQnvicnX1JczreOFPZoQ&usqp=CAU" />
+            </div>
+            <ul>
+                <li class="container"><a href="#clothing-section">Clothing</a></li>
+                <li class="container"><a href="#accessory-section">Accessories</a></li>
+                <li class="container"><a href="./Checkout.html">Cart</a></li>
+
+            </ul>
+            <div id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    <hr class="striped-border"></hr>
+    <main>
+        <section id="slideshow">
+            <div class="slick">
+                <div><img class="slick-slide slick-cloned" src="https://imgur.com/sfjg9R8.png" alt=""></div>
+                <div><img class="slick-slide slick-cloned" src="https://imgur.com/p0wdadG.png" alt=""></div>
+                <div><img class="slick-slide slick-cloned" src="https://imgur.com/96OnkX7.png" alt=""></div>
+                <div><img class="slick-slide slick-cloned" src="https://imgur.com/KtGxwnN.png" alt=""></div>
+            </div>
+        </section>
+        <hr class="striped-border"></hr>
+
+        <section id="clothing-section" class="homepage-section">
+            <h3 class="section-heading">Clothing for Men and Women</h3>
+
+            <div id="clothing-grid" class="product-grid">
+
+            </div>
+        </section>
+        <section id="accessory-section" class="homepage-section">
+            <h3 class="section-heading">Accessories for Men and Women</h3>
+
+            <div id="accessory-grid" class="product-grid">
+            </div>
+        </section>
+    </main>
+    <img id="edyoda-logo" src="https://i.imgur.com/OKAY6Fl.png" alt="EdYoda Projects Logo">
+    <footer>
+        <div>
+            <p class="footer-heading">Online Store</p>
+            <a href="/Homepage.html" class="footer-link">Men Clothing</a>
+            <a href="/Homepage.html" class="footer-link">Women Clothing</a>
+            <a href="/Homepage.html" class="footer-link">Men Accessories</a>
+            <a href="/Homepage.html" class="footer-link">Women Accessories</a>
+        </div>
+        <div>
+            <p class="footer-heading">Helpful Links</p>
+            <a href="/Homepage.html" class="footer-link">Home</a>
+            <a href="/Homepage.html" class="footer-link">About</a>
+            <a href="/Homepage.html" class="footer-link">Contact</a>
+        </div>
+        <div>
+            <p class="footer-heading">Partners</p>
+            <a href="/Homepage.html" class="footer-link">Zara</a>
+            <a href="/Homepage.html" class="footer-link">Pantaloons</a>
+            <a href="/Homepage.html" class="footer-link">Levis</a>
+            <a href="/Homepage.html" class="footer-link">UCB</a>
+            <a href="/Homepage.html" class="footer-link">+ Many More</a>
+        </div>
+        <div>
+            <p class="footer-heading">Address</p>
+            <p href="/Homepage.html" class="footer-link">Building 101</p>
+            <p href="/Homepage.html" class="footer-link">Central Avenue</p>
+            <p href="/Homepage.html" class="footer-link">LA - 902722</p>
+            <p href="/Homepage.html" class="footer-link">United States</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="./Homepage.js"></script>
+    <script src="./cart-count.js"></script>
+</body>
